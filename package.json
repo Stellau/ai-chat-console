@@ -2,6 +2,17 @@
   "name": "ai-chat-console",
   "private": true,
   "version": "0.0.0",
+  "description": "Demo frontend for an AI chat console — built with React and TypeScript, featuring real-time streaming, typewriter rendering, and inline safety flagging.",
+  "keywords": [
+    "ai",
+    "chat",
+    "mock",
+    "websocket",
+    "streaming",
+    "safety"
+  ],
+  "license": "MIT",
+  "author": "Stella Lau (https://github.com/stellau)",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,8 +23,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

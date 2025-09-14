@@ -1,0 +1,28 @@
+{
+  "name": "ai-chat-console-server",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A minimal Node.js WebSocket server that simulates AI chat responses, streaming deltas and emitting safety flags for the AI Chat Console frontend.",
+  "keywords": [
+    "ai",
+    "chat",
+    "mock",
+    "websocket",
+    "streaming",
+    "safety"
+  ],
+  "license": "MIT",
+  "author": "Stella Lau (https://github.com/stellau)",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts",
+    "start:prod": "node dist/index.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^22.0.2"
+  }
+}
